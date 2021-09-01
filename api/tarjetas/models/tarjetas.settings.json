@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tarjetas",
+  "info": {
+    "name": "tarjetas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "personaje": {
+      "model": "personajes",
+      "via": "tarjetas"
+    },
+    "respuestas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "respuestas.respuesta",
+      "required": true
+    },
+    "pregunta": {
+      "type": "string"
+    }
+  }
+}

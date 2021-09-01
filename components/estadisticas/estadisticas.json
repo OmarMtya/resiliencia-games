@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_estadisticas_estadisticas",
+  "info": {
+    "name": "estadisticas",
+    "icon": "hockey-puck",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "economia": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 99,
+      "min": -99
+    },
+    "seguridad": {
+      "type": "integer",
+      "required": true,
+      "default": 0,
+      "max": 99,
+      "min": -99
+    },
+    "salud": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 99,
+      "min": -99
+    },
+    "calidad": {
+      "type": "integer",
+      "required": true,
+      "default": 0,
+      "max": 99,
+      "min": -99
+    }
+  }
+}

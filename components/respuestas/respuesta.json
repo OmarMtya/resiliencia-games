@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_respuestas_respuestas",
+  "info": {
+    "name": "respuesta",
+    "icon": "signal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "valor": {
+      "type": "string"
+    },
+    "estadisticas": {
+      "type": "component",
+      "repeatable": false,
+      "component": "estadisticas.estadisticas",
+      "required": true
+    },
+    "perder": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "ganar": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
