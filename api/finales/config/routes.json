@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/finales",
+      "handler": "finales.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/finales",
+      "handler": "finales.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/finales",
+      "handler": "finales.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "finales",
+  "info": {
+    "name": "finales"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ganar_calidad": {
+      "type": "richtext"
+    },
+    "ganar_salud": {
+      "type": "richtext"
+    },
+    "ganar_seguridad": {
+      "type": "richtext"
+    },
+    "ganar_economia": {
+      "type": "richtext"
+    },
+    "perder_calidad": {
+      "type": "richtext"
+    },
+    "perder_economia": {
+      "type": "richtext"
+    },
+    "perder_salud": {
+      "type": "richtext"
+    },
+    "perder_seguridad": {
+      "type": "richtext"
+    }
+  }
+}
